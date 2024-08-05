@@ -14,9 +14,13 @@ const Thankyou = () => {
 
   const handleOnboard = async () => {
     try {
-      const response = await axios.post("http://127.0.0.1:5000/send-email", {
-        email,
-      });
+      const response = await axios.post(
+        "https://snowcrystal-backend.vercel.app/send-email",
+        {
+          // Update this URL
+          email,
+        }
+      );
       setMessage(response.data.message);
     } catch (error) {
       setMessage("Error sending email");
