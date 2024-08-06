@@ -13,8 +13,8 @@ const Contact = () => {
             name="contact"
             method="POST"
             data-netlify="true"
+            data-netlify-honeypot="bot-field"
             className="space-y-6 bg-n-8 rounded-lg shadow-md max-w-xl w-full"
-            onSubmit="Submit"
           >
             <input type="hidden" name="form-name" value="contact" />
             <div>
@@ -24,7 +24,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="name"
-                className="mt-1 block w-full px-3 py-2 border bg-n-8 rounded-md shadow-sm focus:outline-none focus:ring-[#FFB6C1] focus:border-[#FFB6C1] sm:text-sm text-n-4"
+                className="mt-1 block w-full px-3 py-2 border border-stroke-1 rounded-md shadow-sm focus:outline-none focus:ring-[#FFB6C1] focus:border-[#FFB6C1] sm:text-sm text-n-4"
               />
             </div>
             <div>
@@ -34,7 +34,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                className="mt-1 block w-full px-3 py-2 border bg-n-8 rounded-md shadow-sm focus:outline-none focus:ring-[#FFB6C1] focus:border-[#FFB6C1] sm:text-sm text-n-4"
+                className="mt-1 block w-full px-3 py-2 border border-stroke-1 rounded-md shadow-sm focus:outline-none focus:ring-[#FFB6C1] focus:border-[#FFB6C1] sm:text-sm text-n-4"
               />
             </div>
             <div>
@@ -43,7 +43,7 @@ const Contact = () => {
               </label>
               <textarea
                 name="message"
-                className="mt-1 block w-full px-3 py-2 border bg-n-8 rounded-md shadow-sm focus:outline-none focus:ring-[#FFB6C1] focus:border-[#FFB6C1] sm:text-sm text-n-4"
+                className="mt-1 block w-full px-3 py-2 border border-stroke-1 rounded-md shadow-sm focus:outline-none focus:ring-[#FFB6C1] focus:border-[#FFB6C1] sm:text-sm text-n-4"
               ></textarea>
             </div>
             <div className="flex lg:justify-center">
