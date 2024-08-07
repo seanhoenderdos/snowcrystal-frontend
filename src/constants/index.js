@@ -230,7 +230,7 @@ export const benefits = [
     id: "0",
     title: "User-Centric Design",
     text: "Personalize your website for each user's preferences and ensure it's accessible to everyone, enhancing engagement and satisfaction.",
-    backgroundUrl: "/assets/benefits/card-1.svg",
+    backgroundUrl: "/src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
