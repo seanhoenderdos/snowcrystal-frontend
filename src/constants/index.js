@@ -1,4 +1,5 @@
 import {
+  benefitCard1,
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
